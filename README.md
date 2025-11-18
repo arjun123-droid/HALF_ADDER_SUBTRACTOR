@@ -56,6 +56,7 @@ Developed by:Arjun.R.S
 RegisterNumber:25017547
 ```
 **Half Adder**
+```
 module half_adder(sum, carry, a, b);
   output sum;
   output carry;
@@ -64,6 +65,7 @@ module half_adder(sum, carry, a, b);
   assign sum = a ^ b;
   assign carry = a & b;
 endmodule
+```
 **RTL Schematic**
 <img width="1920" height="1080" alt="Screenshot 2025-11-18 112440" src="https://github.com/user-attachments/assets/7207bb15-9058-4a0c-be9f-55d9a4083309" />
 
@@ -71,6 +73,7 @@ endmodule
 <img width="1920" height="1080" alt="Screenshot 2025-11-18 112828" src="https://github.com/user-attachments/assets/7df0d757-dc06-43a6-bc2b-d3b59bf49281" />
 
 **Half Subtactor**
+```
 module half_subtractor(diff, borrow, a, b);
   output diff;
   output borrow;
@@ -79,7 +82,7 @@ module half_subtractor(diff, borrow, a, b);
   assign diff = a ^ b;
   assign borrow = ~a & b;
 endmodule
-
+```
 **RTL Schematic**
 <img width="1920" height="1080" alt="Screenshot 2025-11-18 113814" src="https://github.com/user-attachments/assets/8cc84d71-6fec-4947-85c2-6983af9dbd3e" />
 
